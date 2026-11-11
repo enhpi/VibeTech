@@ -11,7 +11,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* --- Sticky Glassmorphism Header --- */
+/* --- glass header --- */
 .navbar {
     position: sticky;
     top: 0;
@@ -87,7 +87,7 @@ body {
         color: #111827;
     }
 
-/* --- Hero Section --- */
+/* --- hero section --- */
 .hero {
     text-align: center;
     padding: 4rem 1.5rem 3rem;
@@ -108,7 +108,7 @@ body {
         line-height: 1.5;
     }
 
-/* --- Main Layout Frame --- */
+/* --- layout frame --- */
 .catalog-section {
     max-width: 1280px;
     margin: 0 auto;
@@ -121,7 +121,7 @@ body {
     gap: 1.5rem;
 }
 
-/* --- Card Shell & Details --- */
+/* --- cards --- */
 .card {
     background: #ffffff;
     border-radius: 12px;
@@ -237,7 +237,7 @@ body {
     background-color: #ffffff;
 }
 
-/* --- Responsive Breakpoints --- */
+/* --- responsive --- */
 @media (max-width: 1024px) {
     .navbar {
         padding: 1rem 2rem;
